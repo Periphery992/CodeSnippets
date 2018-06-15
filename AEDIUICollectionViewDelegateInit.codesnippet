@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>AEDI UICollectionView Delegate Init</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark ---- UICollectionViewDataSource
+
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
+{
+    return 1;
+}
+
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
+{
+    return self.deviceInfo.mutarrOutputList.count;
+}
+
+
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    UICollectionViewCell *cell = [_collectionView dequeueReusableCellWithReuseIdentifier:cellId forIndexPath:indexPath];
+    
+    PyronixOutputButton *btnOutput = [cell viewWithTag:TAG_Button];
+    
+    if (btnOutput)
+    {
+        [btnOutput setPyronixOutputInfo:[self.deviceInfo.mutarrOutputList objectAtIndex:indexPath.row]];
+    }
+    else
+    {
+        btnOutput = [[PyronixOutputButton alloc]initWithPyronixOutputInfo:[self.deviceInfo.mutarrOutputList objectAtIndex:indexPath.row]];
+        btnOutput.frame = CGRectMake(0, 0, SCREEN_WIDTH/4, 110);
+        btnOutput.tag = TAG_Button;
+        [cell.contentView addSubview:btnOutput];
+        
+        UIView *viewLine = [[UIView alloc]initWithFrame:CGRectMake(0, 110-0.5, SCREEN_WIDTH/4, 0.5)];
+        viewLine.backgroundColor = UIColorFromRGB(0xe7e7e7, 1.0f);
+        [cell.contentView addSubview:viewLine];
+    }
+
+    return cell;
+}
+
+#pragma mark ---- UICollectionViewDelegateFlowLayout
+
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    return (CGSize){SCREEN_WIDTH/4,110};
+}
+
+
+- (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section
+{
+    return UIEdgeInsetsMake(0, 0, 0, 0);
+}
+
+
+- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section
+{
+    return 0.f;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D3A3F341-5DCA-4DEE-9F8C-BE660B56AC8D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>AEDI UICollectionView Delegate Init</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

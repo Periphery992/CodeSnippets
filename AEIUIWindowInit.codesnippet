@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>AEI UIWindow Init</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeExpression</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    MainViewController *controller = [[MainViewController alloc]init];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:controller];
+    
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>BA8BC06B-521A-4886-B4D3-4F996BE1E1E9</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Appdelegate Window init</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>AEI UIWindow Init</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

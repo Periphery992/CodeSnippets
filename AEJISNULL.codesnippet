@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>AEJ ISNULL</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;#class#&gt; *&lt;#name#&gt; = [dic objectForKey:@"&lt;#name#&gt;"];
+    if (&lt;#name#&gt; != nil &amp;&amp; ![&lt;#name#&gt; isKindOfClass:[NSNull class]])
+    {
+        &lt;#statements#&gt;
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1A5474ED-BB3A-493E-BDB4-B51B91DEA24A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>AEJ ISNULL</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
