@@ -3,35 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>AEL Init Lazy</string>
+	<string>AEP UIScrollView Property</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if (!&lt;#name#&gt;)
-{
-    &lt;#name#&gt; = ({
-        
-        &lt;#code#&gt;
-
-        &lt;#name#&gt;;
-    });
-}
-return &lt;#name#&gt;;</string>
+	<string>@property (nonatomic, strong) UIScrollView *scrollview;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3C39029B-B483-4EF7-A29D-DDDFACF7891C</string>
+	<string>455ECB8E-8156-4010-AB23-95F9DF7ADA41</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Lazy Load Demo</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>AEL Init Lazy</string>
+	<string>AEP UIScrollView Property</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

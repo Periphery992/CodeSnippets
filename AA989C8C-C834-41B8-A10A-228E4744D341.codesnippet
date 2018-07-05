@@ -3,35 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>AEL Init Lazy</string>
+	<string>AEI UIImage Init</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if (!&lt;#name#&gt;)
-{
-    &lt;#name#&gt; = ({
-        
-        &lt;#code#&gt;
-
-        &lt;#name#&gt;;
-    });
-}
-return &lt;#name#&gt;;</string>
+	<string>UIImage *image = [[UIImage alloc]init];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3C39029B-B483-4EF7-A29D-DDDFACF7891C</string>
+	<string>AA989C8C-C834-41B8-A10A-228E4744D341</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Lazy Load Demo</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>AEL Init Lazy</string>
+	<string>AEI UIImage Init</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

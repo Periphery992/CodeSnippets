@@ -3,35 +3,35 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>AEL Init Lazy</string>
+	<string>AEL UILabel Lazy</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>if (!&lt;#name#&gt;)
-{
-    &lt;#name#&gt; = ({
-        
-        &lt;#code#&gt;
-
-        &lt;#name#&gt;;
-    });
-}
-return &lt;#name#&gt;;</string>
+    {
+        &lt;#name#&gt; = ({
+            
+            UILabel *label = [[UILabel alloc]init];
+            label.textColor = &lt;#UIColor#&gt;;
+            label.font = &lt;#UIFont#&gt;;
+            
+            label;
+        });
+    }
+    return &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3C39029B-B483-4EF7-A29D-DDDFACF7891C</string>
+	<string>5E244C9C-5A33-47EA-BF9B-506D2B30DA23</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Lazy Load Demo</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>AEL Init Lazy</string>
+	<string>AEL UILabel Lazy</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
