@@ -3,21 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>AEI UIImage Init</string>
+	<string>AEM InitCell Method</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIImage *image = [[UIImage alloc]init];</string>
+	<string>- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
+{
+    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier])
+    {
+        &lt;#statement#&gt;
+    }
+    
+    return self;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AA989C8C-C834-41B8-A10A-228E4744D341</string>
+	<string>8DB3AD5F-EA49-41F2-85FC-2C67CF76E1E2</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>AEI UIImage Init</string>
+	<string>AEM InitCell Method</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

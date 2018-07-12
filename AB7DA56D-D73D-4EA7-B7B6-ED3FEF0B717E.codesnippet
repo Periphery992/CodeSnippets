@@ -3,21 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>AEI UIImage Init</string>
+	<string>AEM setDefaultConstarints Method</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIImage *image = [[UIImage alloc]init];</string>
+	<string>- (void)setDefaultConstraints
+{
+    &lt;#statement#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AA989C8C-C834-41B8-A10A-228E4744D341</string>
+	<string>AB7DA56D-D73D-4EA7-B7B6-ED3FEF0B717E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>AEI UIImage Init</string>
+	<string>AEM setDefaultConstarints Method</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

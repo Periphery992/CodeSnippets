@@ -3,21 +3,36 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>AEI UIImage Init</string>
+	<string>AEL UITableView Lazy</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIImage *image = [[UIImage alloc]init];</string>
+	<string>- (UITableView *)tableview
+{
+    if (!_tableview)
+    {
+        _tableview = ({
+            
+            UITableView *tableview = [[UITableView alloc]init];
+            tableview.dataSource = self;
+            tableview.delegate = self;
+            tableview.tableFooterView = [[UIView alloc]init];
+            
+            tableview;
+        });
+    }
+    return _tableview;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AA989C8C-C834-41B8-A10A-228E4744D341</string>
+	<string>104DF504-9408-4E4B-A567-DA8BA961C334</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>AEI UIImage Init</string>
+	<string>AEL UITableView Lazy</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
