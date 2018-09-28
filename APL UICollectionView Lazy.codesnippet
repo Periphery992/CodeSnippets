@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>APL UICollectionView Lazy</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeExpression</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    if (!_collectionView)
+    {
+        _collectionView = ({
+            
+            self.customLayout = [[UICollectionViewFlowLayout alloc] init]; // 自定义的布局对象
+            
+            UICollectionView *collectionView = [[UICollectionView alloc] init];
+            collectionView.collectionViewLayout = self.customLayout;
+            collectionView.backgroundColor = [UIColor whiteColor];
+            collectionView.dataSource = self;
+            collectionView.delegate = self;
+
+            
+            [collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:cellId];
+            [collectionView registerClass:[UICollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:headerId];
+            [collectionView registerClass:[UICollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:footerId];
+            
+            collectionView;
+        });
+    }
+    return _collectionView;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1C7312F8-97C2-4DBB-A836-969AACD56A27</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>APL UICollectionView Lazy</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

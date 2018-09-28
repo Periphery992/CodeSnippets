@@ -9,7 +9,7 @@
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) UIView *vw&lt;#name#&gt;;</string>
+	<string>@property (nonatomic, strong) UIView *&lt;#name#&gt;view;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>9F03730B-0E4C-42AF-949C-79F128950FB1</string>
 	<key>IDECodeSnippetLanguage</key>

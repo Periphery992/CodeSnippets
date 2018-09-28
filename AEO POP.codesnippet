@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>AEP UIScrollView Property</string>
+	<string>AEO POP</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceVariables</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) UIScrollView *scrollview;</string>
+	<string>[self.navigationController popViewControllerAnimated:YES];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1163FC37-53FC-4780-B133-1B285E47634D</string>
+	<string>D02D468C-8AB0-4A8F-A68C-B80D8CE98A77</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>AEP UIScrollView Property</string>
+	<string>AEO POP</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

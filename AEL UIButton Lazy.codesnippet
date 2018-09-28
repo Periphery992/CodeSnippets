@@ -3,21 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>AEP UIScrollView Property</string>
+	<string>AEL UIButton Lazy</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceVariables</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) UIScrollView *scrollview;</string>
+	<string>if (!&lt;#name#&gt;)
+{
+    &lt;#name#&gt; = ({
+            
+        UIButton *button = [[UIButton alloc]init];
+
+        button;
+    });
+}
+return &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1163FC37-53FC-4780-B133-1B285E47634D</string>
+	<string>FC2E674E-400C-4297-B58E-EF3EEE06CAD3</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>AEP UIScrollView Property</string>
+	<string>AEL UIButton Lazy</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
